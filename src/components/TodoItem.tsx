@@ -2,7 +2,6 @@ import React from 'react'
 import './TodoItem.css';
 
 interface Props {
-    id: number,
     title: string,
     userId: number,
 }

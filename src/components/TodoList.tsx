@@ -8,7 +8,6 @@ const TodoList: React.FC<{todo: any[]}> = (props) => {
       <ul>
         {props.todo.map(item => (
         <TodoItem 
-        id={item.id}
         title={item.title}
         userId={item.userId}/>
         ))}
